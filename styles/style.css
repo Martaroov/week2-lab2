@@ -5,27 +5,30 @@ body{
     background-color: rgb(157, 153, 153);   
 }
 
-.contenedor{
-    padding-left: 5%;
-    padding-right: 5%;
+.contenedor{    
     background-color: rgb(254, 255, 255);
+}
+
+.minicont{
+padding-left: 5%;
+padding-right: 5%;
 }
 
 h1{
     color: white;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     
 }
 
-.imgHeader {
+/*.imgHeader {
     width: 700px;
     display: block;
     justify-content: center;
     margin: 0px auto;
-}
+}*/
 
 
 .imgCenter{
@@ -34,4 +37,20 @@ h1{
     margin: 0px auto;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.Bgapple{
+background-image: url("../img/apple-pie.jpg");
+height: 400px;
+background-size: 900px;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+ul{
+    list-style:none;
+}
+
+header{
+    width: 100%;
 }
